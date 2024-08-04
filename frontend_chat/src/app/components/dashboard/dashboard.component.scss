@@ -1,0 +1,27 @@
+.opaque-card {
+    opacity: 0.9; /* Mayor opacidad para mejorar la visibilidad */
+}
+
+.bg-color {
+    background-color: #009688; /* Verde profesional más sutil */
+}
+
+.bg-color2 {
+    background-color: #ffffff; /* Blanco limpio y profesional */
+    height: 550px;
+    margin: 0 20px; /* Espaciado uniforme a los lados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega sombra sutil para un efecto de profundidad */
+    border-radius: 8px; /* Bordes redondeados para un aspecto moderno */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 550px; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    padding: 15px; /* Agregar padding interno para mejorar la presentación */
+    background-color: #f9f9f9; /* Color de fondo suave para las tarjetas */
+    border-radius: 8px; /* Bordes redondeados para una apariencia más pulida */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidad */
+}

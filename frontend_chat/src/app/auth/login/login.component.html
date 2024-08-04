@@ -1,0 +1,46 @@
+<body>
+    <div class="container">
+<br>
+    <div class="text-encabezado">
+        <h1 style="text-align: center; font-weight: bold;">BIENVENIDO A MICROCHAT</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-4"> 
+            <div class="registro">
+                <div class="row">
+                    <mat-form-field  class="campo-texto">
+                        <mat-label class="text-font" >Usuario:</mat-label>
+                        <input class="text-font" type="text" [(ngModel)]="userName" matInput placeholder="Ingrese su usuario">
+                    </mat-form-field>
+                </div>
+                <div class="row">
+                    <mat-form-field class="campo-texto">
+                        <mat-label class="text-font" >Contraseña:</mat-label>
+                        <input [type]="hide ? 'password' : 'text'" [(ngModel)]="password" matInput
+                            placeholder="Ingrese su contraseña">
+                            <button mat-icon-button matSuffix class="toggle-password-button" (click)="hide = !hide"
+                                [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                                <mat-icon class="toggle-password-icon" [ngClass]="{ 'active': hide }">visibility_off</mat-icon>
+                            </button>
+                    </mat-form-field>
+                </div>
+
+                <div class="boton-registro">
+                    <button class="boton-ini btn btn-outline-primary" (click)="goToChat()">Ingresar</button>
+                    <button class="boton-reg btn btn-outline-success" (click)="openSignIn()">Registrate</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="img">
+                <img src="assets/chatapp.png" style="width: 75%; height: auto;">
+            </div>
+            
+        </div>
+    </div>
+
+
+    </div>
+    
+</body>

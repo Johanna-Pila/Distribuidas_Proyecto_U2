@@ -1,0 +1,35 @@
+.bg-color {
+    background-color: #e9e6e2;
+    padding: 0 15px;
+}
+
+.texto-cen {
+    margin-top: 40px;
+    text-align: left;
+    color: #333; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.texto-cen h3 {
+    font-size: 24px; 
+    color: #222; 
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.boton-salir {
+    margin-top: 40px;
+    background-color: #94e9cd; 
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.boton-salir:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}

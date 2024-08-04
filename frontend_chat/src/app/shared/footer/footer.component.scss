@@ -1,0 +1,50 @@
+.footer {
+    background-color: #888;
+    color: #000000;
+    padding: 20px 0;
+  
+    .footer-section {
+      h5 {
+        color: #000000;
+
+      }
+  
+      p {
+        color: #000000;
+      }
+    }
+
+    .footer-section p {
+        color: #000000;
+        margin-right: 3px;
+    }
+
+    .social-links a {
+        display: inline-block;
+        margin-right: 10px;
+        color: #000000;
+        transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+        color: #dab3b3;
+    }
+
+    .social-links i {
+        font-size: 18px;
+        margin-right: 3px;
+    }
+
+    .footer-bottom {
+      margin-top: 20px;
+      p {
+        color: #ffff;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .copy{
+    margin-top: 20px;
+  }
+  
